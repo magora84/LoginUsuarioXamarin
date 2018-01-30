@@ -12,6 +12,7 @@ namespace LoginUsuarioXamarin
 		public MainPage()
 		{
 			InitializeComponent();
+
 		}
 	}
 }

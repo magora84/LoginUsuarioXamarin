@@ -14,6 +14,7 @@ namespace LoginUsuarioXamarin
 			InitializeComponent();
 
 			MainPage = new LoginUsuarioXamarin.MainPage();
+       
 		}
 
 		protected override void OnStart ()
