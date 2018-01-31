@@ -43,9 +43,9 @@
 
                 </Grid.RowDefinitions>
                 <Image Source="Samir.png" HeightRequest="70" VerticalOptions="EndAndExpand"/>
-                <Entry Grid.Row="1" Placeholder="Email o Celular" PlaceholderColor="White" FontSize="16" TextColor="White"/>
-                <Entry Grid.Row="2" Placeholder="Password" PlaceholderColor="White" FontSize="16" TextColor="White"/>
-                <Button Text="LogIn" BackgroundColor="#3897f0" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3"/>
+                <Entry Grid.Row="1" Placeholder="Email o Celular" PlaceholderColor="DarkGray" FontSize="16" TextColor="White" x:Name="input_email"/>
+                <Entry Grid.Row="2" Placeholder="Password" PlaceholderColor="DarkGray" FontSize="16" TextColor="White" x:Name="input_password"/> 
+                <Button Text="LogIn" BackgroundColor="#3897f0" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3" Clicked="btn_enviar" />
               
 
           
